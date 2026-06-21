@@ -1,0 +1,12 @@
+.tnew { border: 5px outset; } .cell { padding: 0px; border: 1px inset; }
+
+.img-right img {
+    float: right;
+    max-width: 40%; /* Prevents image from drowning out the text */
+    margin: 0 0 15px 20px; /* Top, Right, Bottom, Left spacing */
+}
+
+.img-right p {
+    margin: 0 0 15px 0;
+    /* Do NOT use display: flex or width: 100% here, let the browser wrap natively */
+}
