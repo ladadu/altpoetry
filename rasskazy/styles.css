@@ -10,3 +10,15 @@
     margin: 0 0 15px 0;
     /* Do NOT use display: flex or width: 100% here, let the browser wrap natively */
 }
+
+.img-left img {
+    float: left;
+    max-width: 40%; /* Prevents image from drowning out the text */
+    margin: 15px 20px 0 0; /* Top, Right, Bottom, Left spacing */
+}
+
+.img-left p {
+    margin: 15px 0 0 0;
+    /* Do NOT use display: flex or width: 100% here, let the browser wrap natively */
+}
+
