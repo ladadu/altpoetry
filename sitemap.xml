@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ladadu.github.io/altpoetry/</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
-    <loc>https://ladadu.github.io/altpoetry/rasskazy/pesochnica.en.html</loc><lastmod>2026-06-23</lastmod><changefreq>yearly</changefreq><priority>1.0</priority>
-    <loc>https://ladadu.github.io/altpoetry/rasskazy/pesochnica.ru.html</loc><lastmod>2026-06-23</lastmod><changefreq>yearly</changefreq><priority>1.0</priority>
+    <loc>https://ladadu.github.io/altpoetry/</loc><lastmod>2026-06-24</lastmod><changefreq>daily</changefreq><priority>1.0</priority>
+    <loc>https://ladadu.github.io/altpoetry/index.html</loc><lastmod>2026-06-24</lastmod><changefreq>daily</changefreq><priority>1.0</priority>
+    <loc>https://ladadu.github.io/altpoetry/rasskazy/pesochnica.en.html</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+    <loc>https://ladadu.github.io/altpoetry/rasskazy/pesochnica.ru.html</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+    <loc>https://ladadu.github.io/altpoetry/rasskazy/poljzovatelj.en.html</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+    <loc>https://ladadu.github.io/altpoetry/rasskazy/poljzovatelj.ru.html</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+    <loc>https://ladadu.github.io/altpoetry/rasskazy/probuzhdenie.en.html</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+    <loc>https://ladadu.github.io/altpoetry/rasskazy/probuzhdenie.ru.html</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
     <loc>https://ladadu.github.io/altpoetry/rasskazy/skuns.html</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
     <loc>https://ladadu.github.io/altpoetry/rasskazy/glina.ru.html</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
     <loc>https://ladadu.github.io/altpoetry/rasskazy/glina.en.html</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
