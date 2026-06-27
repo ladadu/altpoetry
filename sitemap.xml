@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ladadu.github.io/altpoetry/</loc><lastmod>2026-06-24</lastmod><changefreq>daily</changefreq><priority>1.0</priority>
-    <loc>https://ladadu.github.io/altpoetry/index.html</loc><lastmod>2026-06-24</lastmod><changefreq>daily</changefreq><priority>1.0</priority>
+    <loc>https://ladadu.github.io/altpoetry/</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>1.0</priority>
+    <loc>https://ladadu.github.io/altpoetry/index.html</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>1.0</priority>
     <loc>https://ladadu.github.io/altpoetry/rasskazy/pesochnica.en.html</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
     <loc>https://ladadu.github.io/altpoetry/rasskazy/pesochnica.ru.html</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
     <loc>https://ladadu.github.io/altpoetry/rasskazy/poljzovatelj.en.html</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
@@ -17,5 +17,7 @@
     <loc>https://ladadu.github.io/altpoetry/principia/principia.ru.html</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
      <loc>https://ladadu.github.io/altpoetry/rasskazy/jablonja.en.html</loc><lastmod>2026-06-25</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
     <loc>https://ladadu.github.io/altpoetry/rasskazy/jablonja.ru.html</loc><lastmod>2026-06-25</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+     <loc>https://ladadu.github.io/altpoetry/rasskazy/beloe_dyhanie.en.html</loc><lastmod>2026-06-27</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+    <loc>https://ladadu.github.io/altpoetry/rasskazy/beloe_dyhanie.ru.html</loc><lastmod>2026-06-27</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
   </url>
 </urlset>
