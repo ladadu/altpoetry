@@ -26,3 +26,49 @@
   text-indent: 24px;
 }
 
+.log-session-sequence {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    padding-left: 32px; /* Generous indent away from the screen edge */
+    margin: 24px 0;
+}
+
+/* Prompt styling (Terminal/Code block style) */
+.conductor-prompt {
+    color: #0056b3;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    white-space: pre-wrap;
+    background-color: #f4f8ff; /* Ultra-subtle hint of soft blue */
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: 1px solid #e1ecfd; /* Subtle border to define the terminal edge */
+    display: block;
+}
+
+/* Hide the old divider entirely since they are now separate blocks */
+.log-session-sequence hr {
+    display: none;
+}
+
+/* Response styling (Distinct, separated dialogue block) */
+.signop-response {
+    color: #24292e;
+    background-color: #ffffff; /* Pure white background to separate from prompt */
+    border: 1px solid #e9ecef; /* Clean border defining the distinct block */
+    border-radius: 6px;
+    padding: 16px;
+    margin: 16px 0 0 0; /* Clear air gap separating it from the prompt above */
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); /* Soft shadow for a distinct card look */
+    
+    /* Injected <br/> tag spacing fixes */
+    line-height: 1.2; /* Tightened line height to counteract injected <br/> spaces */
+    white-space: normal; /* Changes from pre-wrap so linebreaks aren't doubled */
+}
+
+/* Targets text directly inside the response to normalize spacing */
+.signop-response br {
+    content: "";
+    margin-bottom: 4px; /* Gives fine control over the <br/> gap size */
+    display: block;
+}
