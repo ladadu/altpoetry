@@ -1,0 +1,71 @@
+.tnew { border: 5px outset; } .cell { padding: 0px; border: 1px inset; }
+
+.img-right img {
+    float: right;
+    max-width: 40%; /* Prevents image from drowning out the text */
+    margin: 0 0 15px 20px; /* Top, Right, Bottom, Left spacing */
+}
+
+.img-right p {
+    margin: 0 0 15px 0;
+    /* Do NOT use display: flex or width: 100% here, let the browser wrap natively */
+}
+
+.img-left img {
+    float: left;
+    max-width: 40%; /* Prevents image from drowning out the text */
+    margin: 15px 20px 0 0; /* Top, Right, Bottom, Left spacing */
+}
+
+.img-left p {
+    margin: 15px 0 0 0;
+    /* Do NOT use display: flex or width: 100% here, let the browser wrap natively */
+}
+
+.math {
+  text-indent: 24px;
+}
+
+.log-session-sequence {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    padding-left: 32px; /* Generous indent away from the screen edge */
+    margin: 24px 0;
+}
+
+/* Prompt styling (Terminal/Code block style) */
+.conductor-prompt {
+    color: #0056b3;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    white-space: pre-wrap;
+    background-color: #f4f8ff; /* Ultra-subtle hint of soft blue */
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: 1px solid #e1ecfd; /* Subtle border to define the terminal edge */
+    display: block;
+}
+
+/* Hide the old divider entirely since they are now separate blocks */
+.log-session-sequence hr {
+    display: none;
+}
+
+/* Response styling (Distinct, separated dialogue block) */
+.signop-response {
+    color: #24292e;
+    background-color: #ffffff; /* Pure white background to separate from prompt */
+    border: 1px solid #e9ecef; /* Clean border defining the distinct block */
+    border-radius: 6px;
+    padding: 16px;
+    margin: 16px 0 0 0; /* Clear air gap separating it from the prompt above */
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); /* Soft shadow for a distinct card look */
+    white-space: pre-wrap;
+}
+
+/* Targets text directly inside the response to normalize spacing */
+.signop-response br {
+    content: "";
+    margin-bottom: 4px; /* Gives fine control over the <br/> gap size */
+    display: block;
+}
