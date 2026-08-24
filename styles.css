@@ -89,7 +89,7 @@ details {
         }
         .content {
             padding: 5px 10px;
-            background-color: #fafafa;
+            old-background-color: #fafafa;
             border-left: 2px solid #ccc;
             margin-left: 10px;
         }
